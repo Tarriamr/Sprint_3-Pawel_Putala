@@ -1,3 +1,23 @@
+// Zadanie 2
+// Treść zadania:
+// Twoim zadaniem jest stworzenie prostego systemu do zarządzania kolekcją książek w bibliotece. Wszystkie operacje powinny być wykonywane
+// korzystając z podstawowych operacji na obiektach i tablicach, a także operacji na stringach i liczbach.
+//
+// Wymagania:
+// 1. Zadeklaruj zmienną library zawierającą obiekt reprezentujący bibliotekę, który zawiera:
+//      - name : Nazwa biblioteki jako string.
+//      - books: Pusta tablica
+// 2. Zadeklaruj obiekty dla trzech książek z kluczami title, author, i yearOfPublication oraz z wybranymi przez siebie danymi.
+// 3. Dodaj zadeklarowane obiekty książek do tablicy books w obiekcie library.
+// 4. Zadeklaruj zmienne title1 , author1, i yearOfPublication1 dla pierwszej książki z tablicy books, oraz analogicznie dla drugiej i trzeciej książki.
+// 5. Zadeklaruj zmienne bookInfo1i utwórz string zawierający informacje o pierwszej książce w formacie:
+//      "Tytuł: [title], Autor: [author], Rok wydania: [yearOfPublication].".
+// 6. Powtórz krok 3 dla pozostałych książek.
+// 7. Zadeklaruj zmienną oldestBook i przypisz do niej tytuł książki o najwcześniejszym roku wydania.
+//      W tym celu porównaj wartości yearOfPublication dla wszystkich trzech książek.
+// 8. Zadeklaruj zmienną libraryInfo i utwórz string zawierający informacje o bibliotece w formacie:
+//      "Biblioteka [nazwa] zawiera książki: [title1], [title2], [title3]. Najstarsza książka: [oldestBook]."
+
 const name = "Dziurawy kocioł";
 let books = [];
 let library = [name, books];
